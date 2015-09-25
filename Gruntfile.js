@@ -19,7 +19,7 @@ module.exports = function(grunt){
                 }
             },
             main: {
-                src: ['templates/**/*.html'],
+                src: ['directive1/templates/**/*.html'],
                 dest: '_directive1_template_cache.js'
             }
         }

@@ -6,7 +6,7 @@ define(['./dirCtrl1'],function(ctrl){
         return {
             restrict : 'E',
             scope : true,
-            templateUrl : './directive1/templates/directive1.html',
+            templateUrl : '../templates/directive1.html',
             controller : ctrl
         }
     }
